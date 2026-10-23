@@ -14,4 +14,25 @@
 body{
     font-size: 16px;
     font-family: "Figtree", sans-serif;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 1.5rem;
+    border: 2px solid var(--gray950);
+    border-radius: 1.2rem;
+    box-shadow: 7px 7px  var(--gray950);
+}
+
+footer{
+    position: absolute;
+    bottom: 1rem;
 }
