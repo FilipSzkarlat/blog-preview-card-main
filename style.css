@@ -20,6 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: var(--gray950);
 }
 
 .container{
@@ -30,6 +31,22 @@ body{
     border: 2px solid var(--gray950);
     border-radius: 1.2rem;
     box-shadow: 7px 7px  var(--gray950);
+    width: 400px;
+}
+
+.main-img{
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    background-color: var(--yellow);
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-right: auto;
 }
 
 footer{
