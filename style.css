@@ -49,6 +49,37 @@ h2{
     margin-right: auto;
 }
 
+h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-block: 1rem;
+}
+
+.date{
+    margin-top: 0.75rem;
+}
+
+.description{
+    margin-bottom: 1.5rem;
+    color: var(--gray500);
+    font-weight: 500;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray950);
+    font-weight: 800;
+}
+
+.author img{
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+
+
 footer{
     position: absolute;
     bottom: 1rem;
