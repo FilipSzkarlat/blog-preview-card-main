@@ -55,6 +55,11 @@ h1{
     margin-block: 1rem;
 }
 
+h1:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+
 .date{
     margin-top: 0.75rem;
 }
