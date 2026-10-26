@@ -55,7 +55,8 @@ h1{
     margin-block: 1rem;
 }
 
-h1:hover{
+h1:hover,
+h1:focus{
     color: var(--yellow);
     cursor: pointer;
 }
